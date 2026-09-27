@@ -1,0 +1,13 @@
+osmnx>=2.0
+geopandas>=1.0
+networkx>=3.2
+folium>=0.17
+mapclassify>=2.6
+contextily>=1.6
+geopy>=2.4
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+jupyter

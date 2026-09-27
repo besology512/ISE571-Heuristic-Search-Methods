@@ -1,0 +1,17 @@
+# Ignore everything by default; the repository only tracks coursework code and outputs.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/assignment1/
+
+# course material, handouts and private write-ups are never published
+*.pdf
+/assignment1/report/
+
+# local environment and caches
+.venv/
+cache/
+.ipynb_checkpoints/
+__pycache__/

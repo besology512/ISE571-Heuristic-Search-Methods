@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c25c5ba2ad58e49edf9322641a89909 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c25c5ba2ad58e49edf9322641a89909" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c25c5ba2ad58e49edf9322641a89909 = L.map(
+                "map_0c25c5ba2ad58e49edf9322641a89909",
+                {
+                    center: [26.305841100000002, 50.1606459],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5af2c656ca0174f8e6fd01370ef27727 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri \u0026mdash; Esri, DeLorme, NAVTEQ | Data \u0026copy; OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5af2c656ca0174f8e6fd01370ef27727.addTo(map_0c25c5ba2ad58e49edf9322641a89909);
+        
+    
+            var marker_a57e398d0b8aec8dad20be64e4cf40f4 = L.marker(
+                [26.3056577, 50.1513016],
+                {
+}
+            ).addTo(map_0c25c5ba2ad58e49edf9322641a89909);
+        
+    
+            var icon_9393ffff290ebd680c24fd46e43dc731 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3bf25110870e5de113ff272ca4dfa4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f22281233c9bb1218594d95451772d0b = $(`<div id="html_f22281233c9bb1218594d95451772d0b" style="width: 100.0%; height: 100.0%;">جامعة الملك فهد للبترول والمعادن, Elm Lane, غرب الظهران, الظهران, مجمع الظهران السكني, محافظة الدمام, المنطقة الشرقية, 34464, السعودية</div>`)[0];
+                popup_a3bf25110870e5de113ff272ca4dfa4a.setContent(html_f22281233c9bb1218594d95451772d0b);
+            
+        
+
+        marker_a57e398d0b8aec8dad20be64e4cf40f4.bindPopup(popup_a3bf25110870e5de113ff272ca4dfa4a)
+        ;
+
+        
+    
+    
+            marker_a57e398d0b8aec8dad20be64e4cf40f4.bindTooltip(
+                `<div>
+                     KFUPM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a57e398d0b8aec8dad20be64e4cf40f4.setIcon(icon_9393ffff290ebd680c24fd46e43dc731);
+            
+    
+            var marker_d4d1ea4d3a604de88c6ea05da41e05ff = L.marker(
+                [26.3060245, 50.1699902],
+                {
+}
+            ).addTo(map_0c25c5ba2ad58e49edf9322641a89909);
+        
+    
+            var icon_ba9ecad839c881c1acce8b348b1ce778 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3b4046ff68e591b8c50ec347e7c63a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_572c6cadd8bda5e3df051cc90fac4334 = $(`<div id="html_572c6cadd8bda5e3df051cc90fac4334" style="width: 100.0%; height: 100.0%;">Mall of Dhahran, طريق الملك سعود, الدوحة الجنوبية, الظهران, الدمام, محافظة الدمام, المنطقة الشرقية, 34457, السعودية</div>`)[0];
+                popup_d3b4046ff68e591b8c50ec347e7c63a3.setContent(html_572c6cadd8bda5e3df051cc90fac4334);
+            
+        
+
+        marker_d4d1ea4d3a604de88c6ea05da41e05ff.bindPopup(popup_d3b4046ff68e591b8c50ec347e7c63a3)
+        ;
+
+        
+    
+    
+            marker_d4d1ea4d3a604de88c6ea05da41e05ff.bindTooltip(
+                `<div>
+                     Mall of Dhahran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d4d1ea4d3a604de88c6ea05da41e05ff.setIcon(icon_ba9ecad839c881c1acce8b348b1ce778);
+            
+    
+            var poly_line_8c56d8e62129e09bebab884cd5e86292 = L.polyline(
+                [[26.3056577, 50.1513016], [26.3060245, 50.1699902]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0c25c5ba2ad58e49edf9322641a89909);
+        
+    
+            poly_line_8c56d8e62129e09bebab884cd5e86292.bindTooltip(
+                `<div>
+                     straight line: 1,863 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
